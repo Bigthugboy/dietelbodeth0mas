@@ -15,6 +15,8 @@ public class Registration {
         int userInput = Scanner.nextInt();
         switch (userInput) {
 
+
+
             case 1: {
                 System.out.println("""
                         enter first name
@@ -67,7 +69,7 @@ public class Registration {
                 case 3: {
                     System.out.println("enter password");
                     Scanner.next();
-                    System.out.println("save loggin details");
+                    System.out.println("save login details");
                     Scanner.next();
                     System.out.println("saved");
                     Scanner.next();

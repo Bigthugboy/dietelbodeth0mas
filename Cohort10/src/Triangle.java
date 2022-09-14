@@ -9,13 +9,6 @@ public class Triangle {
             }
             System.out.println();
         }
-         for (int number  = 5; number >= 0; number--) {
-             for (int j = 0; number > j; j++) {
-                 System.out.println("*");
-             }
-             System.out.println("");
-        }
-        int j = 0;
-
+        
     }
 }

@@ -144,40 +144,8 @@ public class BikeTest {
         cE.accelerate();
         cE.accelerate();
         cE.accelerate();
-        assertEquals(15, cE.getspeed());
+        assertEquals(22, cE.getspeed());
     }
 
 
-    @Test
-    public void bikeCanDeccelerate() {
-        Bike cE = new Bike();
-        cE.setSwitch();
-
-        cE.deccelerate();
-        assertEquals(1, cE.getspeed());
-    }
 }
-//    @Test
-//    public void bikeCanDecceleratedown() {
-//        Bike cE = new Bike();
-//        cE.setSwitch();
-//        cE.accelerate();
-//        cE.accelerate();
-//        cE.accelerate();
-//        cE.accelerate();
-//        cE.accelerate();
-//        cE.accelerate();
-//        cE.accelerate();
-//        cE.accelerate();
-//        cE.accelerate();
-//        cE.accelerate();
-//        cE.accelerate();
-//        cE.deccelerate();
-//        assertEquals(10, cE.getspeed());
-//    }
-//
-
-
-
-
-

@@ -54,27 +54,4 @@ public class Bike {
         return speed;
     }
 
-    public void deccelerate() {
-
-       if (speed >= 40)
-         speed = - 4;
-           gear = 4;
-
-
-       if (speed >= 30 && speed < 40)
-            speed =-  3;
-            gear = 3;
-
-
-       if (speed >= 20 && speed < 30)
-           speed -= 2;
-           gear = 2;
-
-
-        if (speed >= 0 && speed < 20)
-            speed = - 1 ;
-            gear = 1;
-
-    }
-
-    }
+}
